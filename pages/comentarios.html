@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+     <meta name="description" content="Ilustración, diseño y arte.">
+     <meta name="keywords" content="ilustración, photoshop, illustrator, clipstudio, procreate, diseño, arte">
+	   <title>Sebastián Aguilera comentarios</title>
+     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+     <link rel="stylesheet" type="text/css" href="../css/styles.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <script src="../js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="">
+        <br><br><br><br>
+        <h1 class="display-4" id="titulos">Dejá tu comentario!</h1>
+        <br>
+      </header>
+      <nav class="homeCuerpo__navbar navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="../images/favicon.ico" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="navbar-brand">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <form action="#" method="GET" enctype="application/x-www-form-urlencoded">
+          <div clas="form-group">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre...">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido...">
+              </div>
+            </div><br>
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresá tu email" name="e-mail"><br><br>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">¿Desea recibir las novedades a su email?</label>
+            </div>
+            <br>
+            <h3>¿Como llegaste acá?</h3>
+            <div class="form-row align-items-center">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                  <option selected>...</option>
+                  <option value="ig">Instagram</option>
+                  <option value="fb">Facebook</option>
+                  <option value="recomendacion">Recomendación</option>
+                  <option value="foros">Foros</option>
+                  <option value="otros">Otros</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"><h3>Comentarios</h3></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <br>
+            <button class="btn btn-primary" type="reset">Borrar</button>
+            <button class="btn btn-primary" type="submit">Enviar!</button>
+          </div>
+        </form>
+      <footer class="pie">
+        <br><br><br>
+        <hr/>
+        <br>
+        <p class="b">Sebastián 2020</p>
+        <a href="mailto:sebastianxaguilera@gmail.com" class="pie__mailto mailto badge badge-info" title="Enviar correo a Sebastián">Contacto</a>
+      </footer>
+    </div>
+  </body>
+</html>
